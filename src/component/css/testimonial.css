@@ -1,0 +1,62 @@
+.ImageMainDiv {
+  position: relative;
+  background-image: url("/src/Images/asset 40.jpeg");
+  padding: 40px 0px;
+  width: 100%;
+  background-size: cover;
+}
+
+.ImageText {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 11%;
+  text-align: center;
+  font-size: 34px;
+  line-height: 40px;
+  font-family: poppins;
+  color: #000000;
+}
+
+.KindWords {
+  text-align: center;
+  font-size: 34px;
+  line-height: 40px;
+  color: #ffffff;
+  font-family: poppins;
+}
+
+.whiteSquare {
+  background-color: #ffffff;
+  padding: 42px 43px 47px;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 25px;
+  color: #2d2d2d;
+  font-family: poppins;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+.startImage {
+  position: absolute;
+  padding: 45px 45px;
+}
+
+.startImageBelowText {
+  padding-top: 40px;
+}
+.testName1 {
+  padding: 40px 0px;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: poppins;
+  font-weight: 500;
+}
+
+.testName2 {
+  font-size: 12px;
+  line-height: 25px;
+  font-family: poppins;
+  margin-top: -35px;
+}

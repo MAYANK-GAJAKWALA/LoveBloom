@@ -1,0 +1,61 @@
+.MainDiv {
+  background-color: #f6f4f2;
+  width: 100%;
+}
+
+.SizeText {
+  font-family: italiana;
+  line-height: 64.8px;
+  color: #5a5a5a;
+  font-size: 50px;
+  font-weight: 400;
+  padding: 76px 50px;
+}
+
+.subText {
+  padding-left: 50px;
+  margin-top: -70px;
+  font-size: 14px;
+  line-height: 25px;
+  font-family: poppins;
+  color: #2d2d2d;
+}
+
+.TwoButton {
+  border: 1px solid black;
+  width: 250px;
+  font-size: 12px;
+  font-family: poppins;
+  text-align: center;
+  line-height: 25px;
+  font-weight: 500;
+  padding: 10px 0px;
+}
+
+@media only screen and (max-width: 321px) {
+  .SizeText {
+    font-size: 45px;
+    padding: 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .SizeText {
+    font-size: 45px;
+    padding: 0px 0px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .subText {
+    padding: 0px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .MainButtonDiv {
+    margin-top: 30px;
+    margin-left: -50px;
+  }
+}

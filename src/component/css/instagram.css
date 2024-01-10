@@ -1,0 +1,47 @@
+.BelowText {
+  font-size: 92px;
+  line-height: 100.8px;
+  color: #efefef;
+  font-family: italiana;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.MainTextBelowText {
+  font-size: 15px;
+  line-height: 22px;
+  color: #141414;
+  font-family: poppins;
+  text-align: center;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 466px) {
+  .BelowText {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 433px) {
+  .BelowText {
+    font-size: 75px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .BelowText {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 363px) {
+  .BelowText {
+    font-size: 65px;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .BelowText {
+    font-size: 55px;
+  }
+}

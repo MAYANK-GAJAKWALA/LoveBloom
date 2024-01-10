@@ -1,0 +1,61 @@
+.searchInput {
+  width: 120px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.46667em;
+  margin-left: 20px;
+}
+
+.searchInput:focus {
+  box-shadow: none;
+}
+
+.searchInput::placeholder {
+  color: #141414;
+}
+
+.TextSize {
+  font-size: 13px;
+  font-weight: 500;
+  color: #141414;
+}
+
+.webMenu .nav-link:first-child {
+  margin-left: 0;
+}
+
+.webMenu .nav-link:last-child {
+  margin-right: 0;
+}
+
+.webMenu .nav-link {
+  margin: 0 20px;
+}
+
+.fontSize {
+  font-size: 12px;
+}
+
+.LiMargin {
+  margin-top: 12px;
+  text-align: left;
+  color: rgb(68, 68, 68);
+}
+
+.hhh {
+  position: relative;
+}
+
+.hiddenElement {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+.webMenu li:hover .hiddenElement {
+  visibility: visible;
+  opacity: 1;
+}

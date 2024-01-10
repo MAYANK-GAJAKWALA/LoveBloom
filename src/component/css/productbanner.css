@@ -1,0 +1,18 @@
+.ImageSizing {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.imageHeading {
+  font-family: poppins, serif;
+  font-size: 15px;
+  color: #2d2d2d;
+  font-weight: 500;
+  padding-top: 15px;
+}
+
+.BannerLink {
+  color: #2d2d2d;
+  text-decoration: none;
+}

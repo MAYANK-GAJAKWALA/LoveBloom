@@ -1,0 +1,198 @@
+.HeaderBottomBorder {
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.navigationText {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 25px;
+  color: #565656;
+  font-weight: 400;
+}
+
+.SelectLiabray {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  line-height: 25px;
+  color: #141414;
+  font-family: poppins;
+}
+
+.part1 {
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 991.5px) {
+  .part1 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .part2 {
+    display: none;
+  }
+}
+
+.part2 {
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 480.5px) {
+  .SelectLiabray {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 480.5px) {
+  .SelectLiabray1 {
+    display: none;
+  }
+}
+
+.SelectLiabray1 {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  line-height: 25px;
+  color: #141414;
+  font-family: poppins;
+}
+
+.OffcanvasTitleBG {
+  background-color: #f6f4f2;
+  background-position: no-repeat;
+  background-size: cover;
+}
+
+.css-1gv0vcd-MuiSlider-track {
+  color: black !important;
+  height: 2px !important;
+}
+
+.css-14pt78w-MuiSlider-rail {
+  height: 2px !important;
+  background: #888 !important;
+}
+
+.css-eg0mwd-MuiSlider-thumb {
+  color: #141414;
+  height: 10px !important;
+  width: 10px !important;
+}
+
+.priceBoxMin {
+  height: 30px;
+  width: 60px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 16%);
+  border: 1px solid #fff;
+  margin-left: 20px;
+}
+
+.priceBoxMax {
+  height: 30px;
+  width: 60px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 16%);
+  border: 1px solid #fff;
+  margin-left: 140px;
+}
+
+.priceBoxFont {
+  font-size: 12px;
+  line-height: 25px;
+  color: #2d2d2d;
+  font-family: poppins;
+  text-align: center;
+  padding: 1px 0px;
+}
+
+.TypeList {
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 0.4px;
+  color: #141414;
+  display: inline-block;
+  font-family: poppins;
+  cursor: pointer;
+}
+.myCheck {
+  visibility: hidden;
+  opacity: 0;
+}
+.customCheck {
+  opacity: 0;
+}
+.myCheck:checked + .customCheck {
+  opacity: 1;
+}
+/*-----------------------Scroll bar-----------------------*/
+/* width */
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fdfdfd !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #535252;
+  border-radius: 3px !important;
+  border-radius: 0.4rem !important;
+  border: 0.2rem solid transparent !important;
+  background-clip: content-box;
+}
+
+/*-----------------------Scroll bar-----------------------*/
+
+.OffcanvasWidth {
+  width: 320px;
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 366.5px) {
+  .OffcanvasWidth {
+    width: 260px;
+  }
+}
+
+@media only screen and (max-width: 366.5px) {
+  .priceBoxMin {
+    width: 60px;
+  }
+}
+
+@media only screen and (max-width: 366.5px) {
+  .priceBoxMax {
+    width: 60px;
+    margin-left: 80px;
+  }
+}
+
+.BottomBorderProductPage {
+  border-bottom: 1px solid #eee;
+  padding-top: 15px;
+}
+
+@media only screen and (min-width: 991px) {
+  .breadcrumb {
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .FilterPositionSmallScreen {
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .SortingPositionSmallScreen {
+    padding-right: 30px;
+  }
+}

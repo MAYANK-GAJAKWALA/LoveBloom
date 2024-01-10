@@ -1,0 +1,109 @@
+.first_main {
+  padding-top: 100px;
+  border-top: 1px solid #dbd9d9;
+  margin-top: 100px;
+}
+
+.MainRow {
+  margin-top: 50px;
+}
+
+.searchInput2:focus {
+  box-shadow: none;
+}
+.two_list {
+  border-left: 1px solid #dbd9d9;
+  border-right: 1px solid #dbd9d9;
+}
+
+.searchInput2::placeholder {
+  color: #2d2d2d;
+  font-size: 14px;
+  line-height: 25px;
+  font-family: poppins;
+}
+
+.searchInput2 {
+  border-radius: 0px;
+  border: 1px solid black;
+  height: 50px;
+}
+
+.searchInput2:focus {
+  border: 1px solid black;
+}
+
+.belowTextSignUp {
+  font-size: 12px;
+  line-height: 25px;
+  font-family: poppins;
+  color: #2d2d2d;
+  text-align: center;
+}
+
+.blackBox1 {
+  width: 200px;
+  height: 50px;
+  background: black;
+  text-align: center;
+  padding-top: 10px;
+  font-family: poppins;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.SecondRow {
+  margin-top: -80px;
+}
+
+@media only screen and (max-width: 575.5px) {
+  .firstRow {
+    display: none;
+  }
+}
+
+.UpBorder {
+  border-top: 1px solid #dbd9d9;
+  margin-top: 72px;
+}
+
+@media only screen and (max-width: 767.5px) {
+  .blackBox1 {
+    display: none;
+  }
+}
+
+.blackBox2 {
+  width: 180px;
+  height: 50px;
+  background: black;
+  text-align: center;
+  padding-top: 10px;
+  font-family: poppins;
+  font-size: 12px;
+  line-height: 25px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .blackBox2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .blackBox2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767.5px) {
+  .blackBox2 {
+    display: block;
+  }
+}
+
+.DownBorder {
+  border-bottom: 1px solid #dbd9d9;
+  margin-top: 22px;
+}

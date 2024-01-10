@@ -1,0 +1,33 @@
+.NewCollection {
+  padding: 100px 0px 0px;
+  text-align: center;
+  font-size: 34px;
+  font-family: poppins;
+}
+
+.SliderHeading {
+  text-align: center;
+  color: #141414;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  font-family: poppins;
+}
+
+.SliderDescription {
+  text-align: center;
+  color: #141414;
+  font-size: 12px;
+  line-height: 25px;
+  margin-top: -14px;
+  font-family: poppins;
+}
+
+.price {
+  text-align: center;
+  color: #141414;
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: -12px;
+  font-family: poppins;
+}
